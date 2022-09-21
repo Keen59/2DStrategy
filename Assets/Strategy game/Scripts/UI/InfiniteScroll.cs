@@ -124,11 +124,11 @@ public class InfiniteScroll : MonoBehaviour, IBeginDragHandler, IDragHandler, IS
 
         if (positiveDrag)
         {
-            newPos.y = endItem.position.y - scrollContent.ChildHeight*.5f + scrollContent.ItemSpacing;
+            newPos.y = endItem.position.y - scrollContent.ChildHeight*1f + scrollContent.ItemSpacing;
         }
         else
         {
-            newPos.y = endItem.position.y + scrollContent.ChildHeight * .5f - scrollContent.ItemSpacing;
+            newPos.y = endItem.position.y + scrollContent.ChildHeight *1f - scrollContent.ItemSpacing;
         }
 
         currItem.position = newPos;
