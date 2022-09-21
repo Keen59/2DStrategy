@@ -371,7 +371,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2068816913}
+      objectReference: {fileID: 1857795376}
     - target: {fileID: 2721154671764801715, guid: 205cfb6e095f490468371e970ec7a298,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -380,12 +380,12 @@ PrefabInstance:
     - target: {fileID: 2721154671764801715, guid: 205cfb6e095f490468371e970ec7a298,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: UnitSpawn
+      value: SpawnUnit
       objectReference: {fileID: 0}
     - target: {fileID: 2721154671764801715, guid: 205cfb6e095f490468371e970ec7a298,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UIManager, Assembly-CSharp
+      value: ProductionManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2721154671764801715, guid: 205cfb6e095f490468371e970ec7a298,
         type: 3}
@@ -647,7 +647,7 @@ GameObject:
   m_Component:
   - component: {fileID: 330433527}
   m_Layer: 5
-  m_Name: Soldier1 (1)
+  m_Name: PowerPlant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -669,10 +669,10 @@ RectTransform:
   m_Father: {fileID: 1419841107}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 250, y: 339.321}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 112, y: -288}
+  m_SizeDelta: {x: 250, y: 339.32104}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &427445005
 GameObject:
@@ -1744,7 +1744,7 @@ GameObject:
   m_Component:
   - component: {fileID: 922932814}
   m_Layer: 5
-  m_Name: Soldier1
+  m_Name: Barrack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1766,10 +1766,10 @@ RectTransform:
   m_Father: {fileID: 1419841107}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 250, y: 339.321}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 112, y: -288}
+  m_SizeDelta: {x: 250, y: 339.32104}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &944542201
 GameObject:
@@ -1788,7 +1788,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &944542202
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2211,7 +2211,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2068816913}
+      objectReference: {fileID: 1857795376}
     - target: {fileID: 2721154671764801715, guid: 205cfb6e095f490468371e970ec7a298,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -2220,12 +2220,12 @@ PrefabInstance:
     - target: {fileID: 2721154671764801715, guid: 205cfb6e095f490468371e970ec7a298,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: UnitSpawn
+      value: SpawnUnit
       objectReference: {fileID: 0}
     - target: {fileID: 2721154671764801715, guid: 205cfb6e095f490468371e970ec7a298,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UIManager, Assembly-CSharp
+      value: ProductionManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2721154671764801715, guid: 205cfb6e095f490468371e970ec7a298,
         type: 3}
@@ -3260,7 +3260,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2068816913}
+      objectReference: {fileID: 1857795376}
     - target: {fileID: 2721154671764801715, guid: 205cfb6e095f490468371e970ec7a298,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -3269,12 +3269,12 @@ PrefabInstance:
     - target: {fileID: 2721154671764801715, guid: 205cfb6e095f490468371e970ec7a298,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: UnitSpawn
+      value: SpawnUnit
       objectReference: {fileID: 0}
     - target: {fileID: 2721154671764801715, guid: 205cfb6e095f490468371e970ec7a298,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UIManager, Assembly-CSharp
+      value: ProductionManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2721154671764801715, guid: 205cfb6e095f490468371e970ec7a298,
         type: 3}

@@ -187,7 +187,6 @@ public class ProductionManager : MonoBehaviour
             RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
 
 
-
             if (hit.transform.tag == "Node")
             {
                 SelectMovePosition(hit.transform.GetComponent<NodeBase>());
@@ -217,6 +216,7 @@ public class ProductionManager : MonoBehaviour
                 AttackSelectedBuilding(building);
 
             }
+            
         }
     }
 }
